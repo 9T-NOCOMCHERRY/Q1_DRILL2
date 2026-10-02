@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Movie</title>
+</head>
+<body>
+    <style>
+
+    body {
+    background-color: #cabba1;
+    color: #2c2c2c;
+    margin: 0;
+    }
+
+
+    .nested-list1{
+        background-color: #620d0d;
+        padding: 1px;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+        .nested-list2{
+        background-color: rgb(140, 138, 138);
+        padding: 10px;
+        width: 80;
+        text-align: center;
+        box-shadow: 10px 10px 10px rgba(24, 17, 10, 0.609);
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+        h1{
+font-size: large;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+        p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+
+legend{
+text-align: left;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .button {
+    background-color: #620d0d;
+    color: #e5e3e3;
+    border-radius: 5px;
+    }
+
+    </style>
+
+   <div class ="nested-list1">
+        <h1 style="color: #e5e3e3;">RATE A MOVIE</h1>
+    </div>
+
+    <p>Share your top pick movie and write a review.</p>
+
+<div class ="nested-list2">
+
+<!-- MOVIE TITLE -->
+
+<form>
+ <fieldset>
+<br>
+<legend>Top Pick Movie</legend>
+<img src="https://www.freeiconspng.com/thumbs/clapperboard-png/clapperboard-png-12.png" width="70px">
+<br>
+<br>
+  <input type="title" id="title" name="title" placeholder="Movie Title">
+</fieldset>
+</form> 
+<br>
+
+<!-- GENRES -->
+ <fieldset>
+            <legend>Genres <i>(Select all that apply.)</i></legend>
+            <input type="checkbox">
+            <label>Action</label>
+            <input type="checkbox">
+            <label>Comedy</label>
+            <input type="checkbox">
+            <label>Romance</label>
+            <input type="checkbox">
+            <label>Drama</label>
+            <input type="checkbox">
+            <label>Mystery</label>
+            <input type="checkbox">
+            <label>Musical</label>
+            <input type="checkbox">
+            <label>Fantasty</label>
+</fieldset>
+
+<br>
+<!-- RATING -->
+<fieldset>
+            <legend>Rating:</legend>
+            <input type="radio" name="rating">
+            <label>😻</label>
+            <input type="radio" name="rating">
+            <label>😻😻</label>
+            <input type="radio" name="rating">
+            <label>😻😻😻</label>
+            <input type="radio" name="rating">
+            <label>😻😻😻😻</label>
+            <input type="radio" name="rating">
+            <label>😻😻😻😻😻</label>
+
+<form>
+<br>
+<textarea placeholder="Movie Review here..." name="review" id="review" row="30" cols="30"></textarea>
+</form> 
+
+<br>
+
+<input type="submit" value="Submit my review!" class="button">
+    <p style="color: #2c2c2c;">For tips on making movie reviews, click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/">here!</a></p>
+</div>
+</fieldset>
+
+</body>
+</html>
